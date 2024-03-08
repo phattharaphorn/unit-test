@@ -5,8 +5,8 @@ afterAll(done => {
   server.close(done);
 });
 
-test('true_when_x_is_17', () => {
-  expect(is_prime(17)).toBe(true);
+test('true_when_x_is_11', () => {
+  expect(is_prime(11)).toBe(true);
 });
 
 test('false_when_x_is_36', () => {
